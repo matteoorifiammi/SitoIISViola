@@ -1,0 +1,35 @@
+#contenitoreIntestazione{
+    background-color: white;
+    position: center;
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 35%;
+    
+}
+
+#corpo{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#contenitoriCorpo{
+   
+    background-color:rgb(238, 238, 238) ;
+    color: rgb(12, 109, 173);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+#titoliCentrali{
+    color: rgb(12, 109, 173);
+}
+
+#paragrafoSotto{
+    font-size: 15px;
+}

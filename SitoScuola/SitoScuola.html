@@ -1,0 +1,323 @@
+<!doctype html>
+<head>
+	<!-- metatag di bootstrap -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- css di bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<!-- css personale -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- script Java per far funzionare i menù dropdown della Navbar -->  
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+
+	<title>IIS Viola Marchesini</title>
+<head>
+<body>
+<!-- Intestazione -->
+ <div id="intestazionePagina" class="d-none d-lg-block">
+    <div id="contenitoreIntestazione" class="container-lg">
+      <div class="row">
+		<div class="d-flex justify-content-center">
+          <p style="text-align: center; font-family: Lucida 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; letter-spacing: 2px; line-height: 20px; font-weight: 500; color: #808080;">
+            ISTITUTO DI ISTRUZIONE SUPERIORE <br>
+          </p>
+          <p style="text-align: center; font-family: Lucida 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 28px; letter-spacing: 1px; line-height: 28px; font-weight: 500;">
+            I.I.S. VIOLA-MARCHESINI <br>
+          </p>
+          <p style="font-size: 13px; color: #808080;">
+            Via De Gasperi, 21 - 45100 - Rovigo - Tel. 0425/410699 - Fax 0425/35277 <br>
+            PEC: <a href="mailto:ROIS012001@pec.istruzione.it">ROIS012001@pec.istruzione.it</a> - Codice
+            Meccanografico:
+            ROIS012001
+            Codice Fiscale 80006050290
+          </p>
+        </div>
+      </div>
+    </div>
+ </div>
+ 
+<!-- Navbar -->
+<nav id="barraNavigazione" class="navbar navbar-expand-xl navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-center mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            La scuola
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/cenni-storici">Cenni
+              storici</a>
+            <a class="dropdown-item"
+              href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/albo-online-fino-a-s-2015-2016">Albo Online (fino
+              A.S. 2015-2016)</a>
+            <a class="dropdown-item"
+              href="https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=425130"
+              target=”_blank”>Calendario Scolastico 2020-2021</a>
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/genitori/libri-di-testo">Libri di
+              testo</a>
+            <a class="dropdown-item"
+              href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/coordinate-bancarie">Coordinate bancarie</a>
+            <a class="dropdown-item"
+              href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/consiglio-di-istituto">Consiglio di istituto</a>
+            <a class="dropdown-item"
+              href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/monitoraggio-attivita-scolastiche">Monitoraggio
+              attività scolastiche</a>
+            <a class="dropdown-item"
+              href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/orario-a-s-2020-2021">Orario A.S. 2020-2021</a>
+            <a class="dropdown-item"
+              href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/organigramma">Organigramma</a>
+            <a class="dropdown-item"
+              href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/piano-annuale-delle-attivita-a-s-2020-2021">Piano
+              Annuale delle Attività<br> A.S. 2020-2021</a>
+            <a class="dropdown-item"
+              href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/politica-della-qualita">Politica della
+              qualità</a>
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/ptof-2019-2022">PTOF
+              2019-2022</a>
+            <a class="dropdown-item"
+              href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/pcto-percorsi-per-le-competenze-trasversali-e-l-orientamento">PCTO
+              - Percorsi per le Competenze<br> Trasversali e Orientamento </a>
+            <a class="dropdown-item"
+              href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/rapporto-di-autovalutazione-2020-2021">Rapporto
+              di Autovalutazione 2021-2021</a>
+          </div>
+        </li>
+       	 <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Genitori
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/genitori/modulistica">
+              Modulistica</a>
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/genitori/libri-di-testo">Libri di testo</a>
+          </div>
+        </li>
+		
+	 <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Studenti
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/studenti/riforma">
+              Riforma</a>
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/studenti/modulistica">Modulistica</a>
+          </div>
+        </li>		
+		
+	 <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Docenti
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/docenti/modulistica">
+              Modulistica</a>
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/docenti/orario">Orario 2021</a>
+			<a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/docenti/didattica-a-distanza">
+              Didattica a distanza</a>
+			<a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/docenti/comunicazioni">
+              Comunicazioni</a>
+			<a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/docenti/verbali-e-materiali-cdd">
+              Verbali e materiali Cdd</a>
+			<a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/docenti/comitato di valutazione">
+              Comitato di valutazione</a>
+			<a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/docenti/bes-info">
+              Bes info</a>
+          </div>
+        </li>		
+		
+	 <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Personale ATA
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/personale-ata/modulistica-ata">
+             Modulistica ATA</a>
+            <a class="dropdown-item" href="https://www.iisviolamarchesini.edu.it/j2/personale-ata/amministrazione">Amministrazione</a>
+          </div>
+        </li>
+      </ul>
+	  </nav>
+
+<!-- corpo centrale -->	  
+  <div id="corpo" class="container-xl">
+    <div class="row">
+      <div class="col-lg-9">	  
+	
+	<div id="contenitoriCorpo" class="col-sm">
+          <p style="color: rgb(12, 109, 173); font-size: 20px;"> <b>Risorse per Didattica Digitale Integrata</b></p>
+          <a href="https://www.iisviolamarchesini.edu.it/j2/docenti/didattica-a-distanza">
+            <p style=" font-size: 15px;">Risorse utili per la
+              Didattica Digitale Integrata</p>
+          </a>
+        </div>
+        <br>
+        <h4 id="titoliCentrali"> Ultime notizie </h4>
+        <br>
+        <h5 id="titoliCentrali">Elenco alunni classi prime e terze A.S. 2021-2022</h5>
+        <p>Si pubblicano gli elenchi delle studentesse e degli studenti delle <b>classi prime e terze di tutti i
+            plessi</b> per
+          l'A.S. 2021-2022<br>
+          <a href="https://www.iisviolamarchesini.edu.it/j2/docs/2021-2022/classi_prime_as_2021-2022.pdf">Vai all'elenco
+            delle classi prime</a> <br>
+          <a href="https://www.iisviolamarchesini.edu.it/j2/docs/2021-2022/classi_terze_as_2021-2022.pdf">Vai all'elenco
+            delle classi terze</a>
+        </p>
+        <br>
+        <h5 id="titoliCentrali">Corso serale Istruzione degli Adulti A.S. 2021-2022</h5>
+        <p>Si comunica che presso il nostro Istituto <b>è possibile iscriversi ai corsi per adulti IdA di secondo
+            livello </b>
+          finalizzati al conseguimento del diploma di istruzione tecnica per l’A.S. 2021/2022, inoltrando la domanda di
+          iscrizione on-line. <br>
+          Ci si può iscrivere al:<br>
+        <ul>
+          <li><b>primo periodo didattico</b>: primo e secondo anno (Biennio comune)</li>
+          <li><b>secondo periodo didattico</b>: terzo e quarto anno (Meccanica, Informatica e Sistema Moda)</li>
+          <li><b>terzo periodo didattico</b>: quinto anno (Meccanica, Informatica e Sistema Moda)</li>
+        </ul>
+        <a href="https://www.iisviolamarchesini.edu.it/j2/docs/2020-2021/serale/iscrizioni_corso_serale_2021-2022.pdf">Per
+          maggiori informazioni scarica l'allegato</a> <br>
+        <a href="https://forms.gle/oXbtsXByGkGe4ink9">Modulo di iscrizione online</a><br>
+        <a href="https://www.iisviolamarchesini.edu.it/j2/docs/2021-2022/locandina_ida.pdf">Scarica la locandina
+          1</a><br>
+        <a href="https://www.iisviolamarchesini.edu.it/j2/docs/2021-2022/locandina_ida.png">Scarica la locandina
+          2</a>
+        </p>
+        <br>
+        <h5 id="titoliCentrali">Collegio dei Docenti</h5>
+        <p>Il Collegio dei Docenti dell’IIS “Viola-Marchesini” è convocato in modalità <b>a distanza mercoledì 8
+            settembre 2021 alle ore 9.30</b>
+        </p>
+        <br>
+        <h5 id="titoliCentrali">Calendario esami integrativi A.S. 2021-2022</h5>
+        <p>Si pubblica il calendario degli esami integrativi per passaggi da altri istituti.<br><a
+            href="https://www.iisviolamarchesini.edu.it/j2/docs/2021-2022/calendario_esami_integrativi.pdf">Scarica
+            l'allegato</a>
+        </p>
+        <br>
+        <h5 id="titoliCentrali">Differimento data apertura buste dell’avviso pubblico
+          aperto/invito rivolto
+          alle agenzie di assicurazione</h5>
+        <p><b>Differimento data apertura buste</b> dell’avviso pubblico aperto/invito, alla presentazione di offerte
+          rivolto
+          alle agenzie di assicurazione per presentazione delle offerte per l’affidamento del servizio di
+          assicurazione
+          <b> favore degli alunni e del personale scolastico.</b><br><a
+            href="https://drive.google.com/drive/folders/1FjZu9Cqa222hLJIylh0B8xns0-7u1jnz?usp=sharing">Vedi
+            comunicazione</a>
+        </p>
+        <br>
+        <h5 id="titoliCentrali">Avviso pubblico aperto/invito rivolto alle agenzie di
+          assicurazione</h5>
+        <p>Avviso pubblico aperto/invito, alla presentazione di offerte rivolto alle agenzie di assicurazione per
+          presentazione delle offerte per l’affidamento del servizio di <b>assicurazione in favore degli alunni e del
+            personale scolastico per gli anni 2021/2022, 2022/2023, 2023/2024, con decorrenza dalle 00.00 del 01/09/2021
+            alle 24.00 del 31/08/2024.</b><br><a
+            href="https://drive.google.com/drive/folders/1FjZu9Cqa222hLJIylh0B8xns0-7u1jnz?usp=sharing">Scarica l'avviso
+            e gli allegati</a>
+        </p>
+        <br>
+        <h5 id="titoliCentrali">Perfezionamento Iscrizioni Classi Prime A.S. 2021-2022 </h5>
+        <p>
+          Sono pubblicate le indicazioni per <b>perfezionare l'iscrizione alle classi prime per l'A.S. 2021-2022.
+            <br>Nota</b>: a causa del cambio dell'ISTITUTO CASSIERE i pagamenti del contributo volontario con PAGO IN
+          RETE per le
+          CLASSI PRIME A.S. 2021-2022 potranno essere effettuati dall'11 Luglio.<br><a
+            href="https://www.iisviolamarchesini.edu.it/j2/docs/2021-2022/perfezionamento_iscrizioni.pdf">Scarica la
+            comunicazione</a><br>
+          <a href="https://www.iisviolamarchesini.edu.it/j2/docs/2021-2022/manuale_pagamenti_scolastici.pdf">Scarica il
+            manuale utenti pagamenti scolastici Pago in Rete</a>
+        </p>
+        <br>
+        <h5 id="titoliCentrali">Libri di testo A.S. 2021-2022 </h5>
+        <p>
+          Sono pubblicati i <b>libri di testo per l'A.S. 2021-2022</b> per tutti i quattro plessi.<br>
+          <a href="https://www.iisviolamarchesini.edu.it/j2/genitori/libri-di-testo">Scarica la lista dei libri di testo
+            2021-2022 </a>
+        </p>
+        <br>
+
+      </div>
+
+<!-- colonna laterale -->
+      <div class="col-sm" align="center">
+        <div id="contenitoriCorpo" class="col-sm">
+          <h5 id="titoliCentrali">PON 2014-2020</h5>
+          <a
+            href="https://www.iisviolamarchesini.edu.it/j2/component/content/article/2-non-categorizzato/175-pon-2014-2020"><img
+              src="img\pon.png"> </a>
+        </div>
+        <div id="contenitoriCorpo" class="col-sm">
+          <h5 id="titoliCentrali">PON FSE Studenti</h5>
+          <a href="https://sites.google.com/view/fse-v-m/home"><img src="img\ponstudenti.png" width="220px"
+              height="100px"></a>
+        </div>
+        <div id="contenitoriCorpo" class="row-sm">
+          <h5 id="titoliCentrali">Sicurezza e COVID-19</h5>
+          <a
+            href="https://www.iisviolamarchesini.edu.it/j2/component/content/article/29-concorsi/180-sicurezza-e-covid"><img
+              src="img\covid.png"> </a>
+        </div>
+        <div id="contenitoriCorpo" class="row-sm">
+          <h5 id="titoliCentrali">Tour Virtuale</h5>
+          <a href="https://tourmake.it/Viola-Marchesini"><img src="img\tour.png" width="100px"
+              height="100px"></a>
+        </div>
+        <div id="contenitoriCorpo" class="row-sm">
+          <h5 id="titoliCentrali">La Scuola Online</h5>
+          <a href="https://web.spaggiari.eu/home/app/default/login.php?custcode=ROIT0003"><img
+              src="img\classeviva.jpg" width="200" height="70"><br></a>
+          <br>
+          <a href="https://web.spaggiari.eu/sdg/app/default/albo_pretorio.php?sede_codice=ROIT0003&referer=http://www.iisviolamarchesini.gov.it/j2/"
+            target="_blank"><img src="img\albo.png" width="200" height="70"><br></a>
+          <br>
+          <a href="https://web.spaggiari.eu/sdg/app/default/trasparenza.php?sede_codice=ROIT0003&referer=http://www.iisviolamarchesini.gov.it/j2"
+            target="_blank"><img src="img\trasparenza.png" width="200" height="70"><br></a>
+          <br>
+          <a href="https://web.spaggiari.eu/sdg/app/default/comunicati.php?sede_codice=ROIT0003&referer=http://www.iisviolamarchesini.gov.it/j2/"
+            target="_blank"><img src="img\comunicati.png" width="200" height="70"><br></a>
+          <br>
+          <a href="https://web.spaggiari.eu/home/app/default/login.php?target=sct" target="_blank"><img
+              src="img\scuolaeterritorio.png" width="200" height="50"><br></a>
+        </div>
+        <div id="contenitoriCorpo" class="row-sm">
+          <a
+            href="https://www.iisviolamarchesini.edu.it/j2/component/content/article/2-non-categorizzato/173-educazione-civica"><img
+              src="img\civica.jpg" width="175px" height="150px"></a>
+        </div>
+        <div id="contenitoriCorpo" class="row-sm">
+          <a href="https://www.iisviolamarchesini.edu.it/mod/"><img src="img\moodle.png" width="160px"
+              height="50px"></a>
+        </div>
+        <div id="contenitoriCorpo" class="row-sm">
+          <a
+            href="https://www.iisviolamarchesini.edu.it/j2/la-scuola/rapporto-di-autovalutazione-2020-2021/2-non-categorizzato/176-bionet"><img
+              src="img\bionet.png" width="160px" height="50px"></a>
+        </div>
+      </div>
+      <br>
+    </div>
+    <br>
+  </div>
+</body>
+</html>
